@@ -1,0 +1,126 @@
+body {
+  background-color: #fefffe;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  color: #757575;
+  padding: 0;
+}
+
+.navbar-brand:hover {
+  color: #757575;
+}
+
+.brand {
+  padding-left: 0.8rem;
+}
+
+.logo {
+  width: 4rem;
+}
+
+small {
+  padding-left: 0.5rem;
+}
+
+.nav-item {
+  font-family: "Inter", sans-serif;
+  padding: 0.7rem 0.4rem;
+}
+
+.grey-hover:hover {
+  text-decoration-color: #303030;
+  background-color: #f2f3f3;
+}
+
+.nav-link {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #303030;
+}
+
+.nav-link:hover {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #303030;
+}
+
+.white-text {
+  color: #fefffe;
+}
+
+.white-text:hover {
+  color: #fefffe;
+}
+
+.red-button {
+  text-decoration-color: #fefffe;
+  background-color: #d92a2b;
+  border-radius: 0.25rem;
+  padding: auto;
+  transition: all 1s linear;
+}
+
+.red-button:hover {
+  background-color: #ba0101;
+  text-decoration-color: #fefffe;
+}
+
+.search-icon {
+  padding: 0 1rem;
+}
+
+.menu {
+  color: #494949;
+}
+
+#payment-header {
+  padding: 5% 15%;
+}
+
+#payment-body {
+  padding: 7% 15%;
+}
+
+.payment-button {
+    width: 15rem;
+    height: 8rem;
+    color: #fefffe;
+    border-radius: 0.5rem;
+    background-color: #d92a2b;
+    transition: all 1s linear;
+}
+
+
+.payment-button:hover {
+  background-color: #ba0101;
+  color: #fefffe;
+}
+
+.payment-title {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none; /* No underlines on the link */
+  z-index: 10; /* Places the link above everything else in the div */
+  background-color: #fff;
+}
+
+.dark {
+  background-color: #121313;
+  color: #fefffe;
+}
+
+h1,
+h3 {
+  font-weight: bolder;
+}
